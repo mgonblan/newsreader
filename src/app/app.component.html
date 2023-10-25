@@ -1,3 +1,25 @@
+<cds-header [name]="title" [route]="['']">
+      <cds-hamburger
+      *ngIf="hasHamburger"
+      [active]="active"
+      (selected)="active = !active"
+    ></cds-hamburger>
+    <cds-header-navigation>
+      <cds-header-item [route]="['noticias']">Noticias</cds-header-item>
+      <cds-header-item [route]="['productos']">Productos</cds-header-item>
+    </cds-header-navigation>
+    <cds-header-global>
+      <cds-header-action description="Notification">
+        <svg cdsIcon="notification" size="20"></svg>
+      </cds-header-action>
+      <cds-header-action description="userAccount">
+        <svg cdsIcon="user--avatar" size="20"></svg>
+      </cds-header-action>
+      <cds-header-action description="search">
+        <cds-search cdsIcon="search"></cds-search>
+      </cds-header-action>
+    </cds-header-global>
+</cds-header>
 
 <main class="bx--content">
 	<router-outlet></router-outlet>

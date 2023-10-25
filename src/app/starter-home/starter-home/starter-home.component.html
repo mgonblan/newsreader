@@ -1,0 +1,12 @@
+
+
+<builder-component
+  *ngIf="!noBuilderPageForUrl"
+  model="page"
+  (load)="noBuilderPageForUrl = $event ? false : true"
+  (error)="noBuilderPageForUrl = true"
+>
+  <!-- Default content inside the tag shows while the builder content is fetching -->
+  <cds-loading [isActive]="isActive" ></cds-loading>
+</builder-component>
+<app-notfound *ngIf="noBuilderPageForUrl"> </app-notfound>

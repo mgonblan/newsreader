@@ -23,6 +23,7 @@
     "@carbon/styles": "1.40.0",
     "@carbon/themes": "11.25.0",
     "carbon-components-angular": "5.15.0",
+    "flowbite": "^1.8.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
