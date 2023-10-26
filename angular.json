@@ -24,6 +24,7 @@
             "outputPath": "dist/newsreader",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "allowedCommonJsDependencies": ["lodash", "flatpickr/dist/plugins/rangePlugin"],
             "polyfills": [
               "zone.js"
             ],
