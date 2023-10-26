@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "fashionsharing",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2023-10-26T08:20:33.783Z"
+}

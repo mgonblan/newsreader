@@ -5,18 +5,15 @@
       (selected)="active = !active"
     ></cds-hamburger>
     <cds-header-navigation>
-      <cds-header-item [route]="['noticias']">Noticias</cds-header-item>
+      <cds-header-item [route]="['noticias']" RouterLinkActive="activebutton" ariaCurrentWhenActive="page">Noticias</cds-header-item>
       <cds-header-item [route]="['productos']">Productos</cds-header-item>
     </cds-header-navigation>
     <cds-header-global>
       <cds-header-action description="Notification">
         <svg cdsIcon="notification" size="20"></svg>
       </cds-header-action>
-      <cds-header-action description="userAccount" onclick="">
+      <cds-header-action description="userAccount"  routerLinkActive="activebutton" ariaCurrentWhenActive="page" (click)="">
         <svg cdsIcon="user--avatar" size="20"></svg>
-      </cds-header-action>
-      <cds-header-action description="search">
-        <cds-search cdsIcon="search"></cds-search>
       </cds-header-action>
     </cds-header-global>
 </cds-header>

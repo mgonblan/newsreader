@@ -1,0 +1,21 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fashionsharing-staging-71716-authRole",
+      "UnauthRoleArn": "arn:aws:iam::472181816234:role/amplify-fashionsharing-staging-71716-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::472181816234:role/amplify-fashionsharing-staging-71716-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-fashionsharing-staging-71716-deployment",
+      "UnauthRoleName": "amplify-fashionsharing-staging-71716-unauthRole",
+      "StackName": "amplify-fashionsharing-staging-71716",
+      "StackId": "arn:aws:cloudformation:eu-west-1:472181816234:stack/amplify-fashionsharing-staging-71716/b1c3d590-73cf-11ee-b2b4-0ad1498fffbb",
+      "AmplifyAppId": "dgc01eq96u5qy"
+    },
+    "categories": {
+      "auth": {
+        "fashionsharing271864f6": {},
+        "fashionsharing": {}
+      }
+    }
+  }
+}

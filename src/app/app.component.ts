@@ -12,6 +12,9 @@ export class AppComponent {
   @Input() placeholder = 'Search';
   @Input() autocomplete = false;
   @Input() disabled = false;
+  @Input() expandable = true;
+  @Input() Autocomplete = false;
   
+
   @HostBinding('class.bx--header') headerClass = true;
 }
